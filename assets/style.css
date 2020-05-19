@@ -89,7 +89,7 @@ body {
 	    	z-index: 1;
 		}
 		.device {
-		    width: 300px;
+		    width: 280px;
 		    height: 500px;
 		    background-image: url(img/device.png);
 		    background-size: contain;
