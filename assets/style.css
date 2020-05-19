@@ -145,11 +145,9 @@ body {
 		}
 
 /** Small Device Styles **/
-@media screen and (max-width:380px) {
+@media screen and (max-width:360px) {
 	.radar svg, .masking-radar svg{
-	  	width:300px;
-	  	margin:auto;
-	  	text-align:center
+	  	width:300px !important;
 	 }
 }
 @media screen and (max-width:480px) {
