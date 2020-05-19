@@ -147,7 +147,7 @@ body {
 /** Small Device Styles **/
 @media screen and (max-width:360px) {
 	.radar svg, .masking-radar svg{
-	  	width:370px !important;
+	  	width:380px !important;
 	 }
 }
 @media screen and (max-width:480px) {
