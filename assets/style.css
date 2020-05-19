@@ -105,13 +105,15 @@ body {
 		    right: 0;
 		}
 		.device-container {
-			height:700px;
-			position:absolute;
-			left:0;
-			right:0;
-			bottom:0;
-			top:0;
-			margin:auto;
+			width: 100%;
+		    height: 100%;
+		    position: absolute;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    top: 0;
+		    margin: 50px auto;
+		    overflow: hidden;
 		}
 		.logo {
 			margin:auto;
@@ -140,10 +142,13 @@ body {
 			color:gray;
 
 		}
+		.separator img {
+			width:100%;
+		}
 
 /** Small Device Styles **/
 
-@media screen (max-width:480px) {
+@media screen and (max-width:480px) {
 	.radar svg, .masking-radar svg{
 	  	width:400px;
 	  	margin:auto;
@@ -178,3 +183,40 @@ body {
 		 filter: drop-shadow( 0px 0px 1px rgba(236,28,36,0.9));
 	}
 }		
+
+@media screen and (min-width:481px) and (max-width:800px) {
+	.radar svg, .masking-radar svg{
+	  	width:700px;
+	  	margin:auto;
+	  	text-align:center
+	}
+ 	.container-radar {
+	    width: auto;
+	 	height: 290px;
+	    position: relative;
+	    margin: 65px auto auto auto;
+	    text-align: center;
+	}
+	.device {
+	    width: 245px;
+	    height: 410px;
+	    background-image: url(img/device.png);
+	    background-size: contain;
+	    position: absolute;
+	}
+	.device-container {
+    height: auto;
+    	position: relative;
+    	margin-top:50px;
+	}
+}
+
+@media  and (min-width:1100px) {
+		.container-radar {
+			position:relative;
+			width:1100px;
+			height:500px;
+			margin:20px auto;
+		}
+ 	
+}
