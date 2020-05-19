@@ -61,8 +61,8 @@ body {
 		.filter {
 			 filter: drop-shadow( 0px 0px 3px rgba(236,28,36,0.9));
 		}
-		.st0{fill:none;stroke:#EC1C24;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-		.st1{fill:none;stroke:#EC1C24;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+		.st0{fill:none;stroke:#EC1C24;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+		.st1{fill:none;stroke:#EC1C24;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 		.st2{fill:url(#SVGID_1_);}
 		.st3{fill:url(#SVGID_2_);}
 		.st4{fill:url(#white3_1_);}
