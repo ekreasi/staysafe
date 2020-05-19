@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1076px" height="21px" viewBox="0 0 1076 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="99.9973606%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0.00263935811%"></stop>
+            <stop stop-color="#F0F0F0" offset="49.4087838%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6.-website-staysafe---Hubungi-Kami" transform="translate(-180.000000, -935.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M719.311251,955.724999 C719.700765,956.095038 720.313062,956.091166 720.697865,955.71623 L739.906627,937 L1255,937 C1255.55228,937 1256,936.552285 1256,936 C1256,935.447715 1255.55228,935 1255,935 L739.5,935 C739.239281,935 738.98887,935.101824 738.802135,935.28377 L719.991224,953.612351 L700.688749,935.275001 C700.5029,935.098443 700.256344,935 700,935 L181,935 C180.447715,935 180,935.447715 180,936 C180,936.552285 180.447715,937 181,937 L699.600725,937 L719.311251,955.724999 Z" id="Path-2"></path>
+        </g>
+    </g>
+</svg>

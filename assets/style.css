@@ -1,0 +1,94 @@
+    	body {
+    		font-family: 'Muli', sans-serif;
+  			background-color:#fff;
+		}
+
+
+		.path {
+		  animation: draw 2.5s infinite;
+		}
+
+		@keyframes draw {
+		  50% {
+		    stroke-dashoffset: 0;
+		  }
+		} 
+		.filter {
+			 filter: drop-shadow( 0px 0px 3px rgba(236,28,36,0.9));
+		}
+		.st0{fill:none;stroke:#EC1C24;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+		.st1{fill:none;stroke:#EC1C24;stroke-width:11;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+		.st2{fill:url(#SVGID_1_);}
+		.st3{fill:url(#SVGID_2_);}
+		.st4{fill:url(#white3_1_);}
+		.st5{fill:url(#SVGID_3_);}
+		.st6{fill:url(#SVGID_4_);}
+		.st7{fill:url(#white2_2_);}
+		.st8{fill:url(#SVGID_5_);}
+		.st9{fill:url(#SVGID_6_);}
+		.container-radar {
+			position:relative;
+			width:1100px;
+			height:500px;
+			margin:20px auto;
+		}
+		.radar {
+			position:absolute;
+			left:0;
+			right:0;
+			top:0;
+			bottom:0;
+		}
+		.masking-radar {
+			position: relative;
+	    	z-index: 1;
+		}
+		.device {
+		    width: 300px;
+		    height: 796px;
+		    background-image: url(img/device.png);
+		    background-size: contain;
+		    z-index: 2;
+		    position: absolute;
+		    background-color: transparent;
+		    background-repeat:no-repeat;
+		    margin: auto;
+		    left: 0;
+		    right: 0;
+		}
+		.device-container {
+			height:700px;
+			position:absolute;
+			left:0;
+			right:0;
+			bottom:0;
+			top:0;
+			margin:auto;
+		}
+		.logo {
+			margin:auto;
+			text-align:center;
+		}
+		.copywriting {
+			text-align: center;
+		}
+		.copywriting h3 {
+			font-weight:300;
+			color:gray;
+			margin:auto;
+		}
+		.copywriting h1 {
+			font-weight:500;
+	    	color: #3e3e3e;
+	    	margin: 20px auto 5px auto;
+		}
+		.separator {
+			margin:60px auto;
+			text-align: center;
+		}
+		.separator p {
+			font-size:13px;
+			font-weight:300;
+			color:gray;
+
+		}
